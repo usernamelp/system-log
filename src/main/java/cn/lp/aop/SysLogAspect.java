@@ -28,7 +28,6 @@ public class SysLogAspect {
     private static Logger logger = LoggerFactory.getLogger(SysLogAspect.class);
 
     @Around("@annotation(sysLog)")
-    @Pointcut()
     public Object around(ProceedingJoinPoint joinPoint, SysLog sysLog) throws Throwable {
         long beginTime = System.currentTimeMillis();
         //执行方法
