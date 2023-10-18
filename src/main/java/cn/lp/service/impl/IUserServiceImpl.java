@@ -12,7 +12,7 @@ public class IUserServiceImpl implements IUserService {
    @Autowired
     private UserMapper userMapper;
 
-    public void insert(SysUser sysUser){
-        userMapper.insert(sysUser);
+    public int insert(SysUser sysUser){
+       return userMapper.insert(sysUser);
     }
 }

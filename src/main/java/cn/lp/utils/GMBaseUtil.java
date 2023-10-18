@@ -1,4 +1,4 @@
-package com.court.tiaojie.mediation.common.utils.encrypt;
+package cn.lp.utils;
 
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 

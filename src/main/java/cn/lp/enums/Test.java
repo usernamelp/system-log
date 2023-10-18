@@ -1,4 +1,4 @@
-package cn.lp.controller;
+package cn.lp.enums;
 
 /**
  * @author lipeng

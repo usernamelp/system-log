@@ -1,4 +1,4 @@
-package com.court.tiaojie.mediation.common.utils;
+package cn.lp.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

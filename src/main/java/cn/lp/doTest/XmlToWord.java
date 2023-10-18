@@ -1,4 +1,4 @@
-package cn.lp.entity;
+package cn.lp.doTest;
 
 import java.io.*;
 import java.nio.charset.Charset;

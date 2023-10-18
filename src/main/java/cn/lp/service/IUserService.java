@@ -4,5 +4,5 @@ import cn.lp.entity.SysUser;
 
 
 public interface IUserService {
-    public void insert(SysUser sysUser);
+    public int insert(SysUser sysUser);
 }

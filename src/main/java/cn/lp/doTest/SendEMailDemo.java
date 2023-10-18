@@ -1,4 +1,4 @@
-package cn.lp.controller;
+package cn.lp.doTest;
 
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSenderImpl;

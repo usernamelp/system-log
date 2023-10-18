@@ -1,9 +1,6 @@
 package cn.lp.doTest;
 
 import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.util.IdUtil;
-import cn.hutool.core.util.StrUtil;
 import cn.hutool.extra.template.Template;
 import cn.hutool.extra.template.TemplateConfig;
 import cn.hutool.extra.template.TemplateEngine;
@@ -12,24 +9,14 @@ import cn.lp.entity.SysUserDTO;
 import com.spire.doc.CssStyleSheetType;
 import com.spire.doc.Document;
 import com.spire.doc.FileFormat;
-import com.spire.doc.Section;
 import com.spire.doc.collections.SectionCollection;
-import com.spire.doc.documents.StyleType;
-import com.spire.doc.documents.XHTMLValidationType;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 
-import javax.swing.text.html.HTML;
-import java.awt.geom.Dimension2D;
 import java.io.*;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import java.nio.charset.StandardCharsets;
 import java.util.*;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipFile;
-import java.util.zip.ZipOutputStream;
-
 @Slf4j
 public class HTMLtoWord {
 
